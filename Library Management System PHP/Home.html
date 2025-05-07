@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #background{
+padding: 0%;
+min-height: 1050px;
+width: 100%;
+
+}
+#top{
+height: 35px;
+width: 100%;
+background:#2c7ad6;
+line-height: 35px;
+padding: 0px 20px 9px 100px;
+box-sizing: border-box;
+word-spacing:10px ;
+
+}
+#menu{
+height: 65px;
+width: 100%;
+background:rgb(249, 249, 249);
+
+}
+#logo{
+height: 70px;
+width: 30%;
+background:rgb(249, 249, 249);
+text-align: center;
+line-height: 65px;
+font-size: 40px;
+float: left;
+}
+#menu1{
+height: 70px;
+width:70%;
+background:white;
+float: left;
+
+}
+#menu1 UL{
+list-style: none;
+padding-left: 200px;
+box-sizing: border-box;
+
+}
+#menu1 LI{
+height: 45px;
+width: 130px;
+
+text-align: center ; 
+display: inline-block; 
+line-height: 45px;
+transform: translateY(-5px);
+color: black;
+font-size: 20px;
+
+}
+#menu1 LI:hover{
+background: #2c7ad6;  
+color: white; 
+transition: all ease 1s;
+border-radius: 3px;
+}
+
+#slider{
+height: 900px;;
+width: 100%;
+background:url(image/4.jpg);
+background-size: cover;
+background-attachment: fixed;
+/* animation-name:slider;
+animation-duration: 20s;
+animation-iteration-count:infinite ;
+animation-delay: 3s;*/
+}
+/*
+@keyframes slider{
+
+from{
+    background:url(image/4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+to{
+    background:url(image/4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+} 
+}
+*/
+/* #x{
+height:640px;
+width: 40%;
+background:rgba(0,0,0, .4); 
+float: left;
+font-size: 41PX;
+color: white;
+text-align: center;
+padding-top: 250px;
+box-sizing: border-box; 
+}*/
+#y{
+height:200%;
+width: 100%;
+background:rgba(0,0,0, .4); 
+float: left;
+background:rgba(0,0,0, .4); 
+float: left;
+font-size: 41PX;
+color: white;
+text-align: center;
+padding-top: 50px;
+box-sizing: border-box; 
+
+
+}
+
+#l{
+height:450px;
+width: 60%;
+background:rgba(255,255,255, .6); 
+float: left; 
+margin: 90px;
+border-radius: 7px ;
+
+}
+#l:hover{
+background:linear-gradient(45deg,rgba(50,177,40, .6),rgba(255,255,255, .6));
+}
+
+
+#student{
+margin:50px 50px;
+color:blue;
+
+}
+#Teacher{
+margin:50px 50px;
+color:white;
+}
+.t{
+height: 40px;
+width: 100%;
+border: 2px solid green;
+border-radius: 4px;
+box-sizing: border-box;
+margin-bottom: 15px;
+
+}
+#down{
+height: 270px;
+width: 100%;
+margin-top: 10px;
+background:#2c7ad6;
+text-align: center;
+padding-top: 10px;
+color: white;
+}
+.footer{
+height: 20px;
+width: 100%;
+background: black;
+color: white;
+text-align: center;
+}
+img{
+    padding: 31px;
+    width: 20%;
+    height: 20%;
+}
+@media screen and (max-width: 1023px) and (min-width: 768) {
+            #menu1 ul {
+                flex-direction: row;
+                padding-left: 1;
+                align-items: center;
+            }
+
+            #logo {
+                font-size: 2.8rem;
+                width: 50%;
+                padding: 0;
+            }
+
+            #menu1 ul {
+                padding: 0;
+            }
+
+            #menu1  {
+                width: 100%;
+                text-align: center;
+            }
+
+            #slider {
+                height: auto;
+            }
+
+            #x, #y {
+                width: 100%;
+                text-align: center;
+                padding: 50px 20px;
+            }
+
+            #l {
+                margin: 20px auto;
+            }
+        }
+
+        @media screen and (max-width: 767px) and (min-width: 267px ) {
+            #logo {
+                font-size: 1.2rem;
+                width: 40%;
+            }
+
+            #top {
+                font-size: 0.6rem;
+                padding: 1px;
+            }
+
+            #menu1 li{
+                font-size: 0.5rem;
+                padding: -px;
+                flex-direction: column;
+            }
+
+            #x {
+                font-size: 2.5rem;
+                padding: 72.3px 20px;
+            }
+            #down {
+                font-size: 0.9rem;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <div id="background">
+        <header>
+        <div id="top">
+            <a href="#" class="fa fa-envelope" style="text-decoration:none;  color: white;">
+                sharmadishant2005@gmail.com
+              </a>
+              <a href="#" class="fa fa-phone" style="text-decoration:none; color: white;">
+                +91-7891453181
+              </a>
+              <a href="#" class="fa fa-facebook" style="text-decoration:none; padding:7px; float:right; color: white;"></a>
+              <a href="#" class="fa fa-instagram" style="text-decoration:none; padding:7px; float:right; color: white;"></a>
+              <a href="#" class="fa fa-twitter" style="text-decoration:none;  padding: 7px ; float:right; color: white;"></a>
+        </div>
+        <div id="menu">
+            <div id="logo">LIBRARY<b style="color:#2c7ad6 ;">ZONE</b>
+            </div>
+            <div id="menu1">
+                <ul>
+                    <a href="Admin.html" target="_blank"><li class="fa fa-user">Admin Login</li></a>
+                    <a href="Registration.html" target="_blank"><li class="fa fa-registered">Register</li></a>
+                    <a href="Login.html" target="_blank"><li class="fa fa-user" >Login</li></a>
+                    <a href="Home.html"  target="_blank"><li class="fa fa-home">Home</li></a>
+                    <a href="#" target="_blank"><li class="fa fa-book" >Books</li></a>   
+                </ul>
+            </div>   
+        </div>
+        </header>
+        <div id="slider"><br><br><br><br>
+
+            <div id="y" align="center">WELCOME TO LIBRARY<b style="color: #2c7ad6 ;">ZONE</b>
+                <p style="font-size: 15PX;" align="center">WE ARE GLAD TO SEE YOU HERE </p>
+                <img  src="IMAGE/AI.jpg" alt="Photo" align="left">
+                <img  src="IMAGE/CSE.jpg" alt="Photo" align="left" >
+                <img  src="IMAGE/COMPUTER HARDWARE.jpg" alt="Photo" align="left" >
+                <img  src="IMAGE/ROBOTICS.jpg" alt="Photo" align="left" >
+                <img  src="IMAGE/CYBERSYCURITY.jpg" alt="Photo" align="left">
+                <img  src="IMAGE/CLOUD COMPUTING.jpg" alt="Photo" align="left" >
+                <img  src="IMAGE/IOT.jpg" alt="Photo" align="left" >
+                <img  src="IMAGE/CIVIL.jpg" alt="Photo" align="left">
+                <img  src="IMAGE/MECHANICAL.jpg" alt="Photo" align="left" >
+                <img  src="IMAGE/ELECTRICAL.jpg" alt="Photo" align="left">
+                <img  src="IMAGE/CHEMICAL.jpg" alt="Photo" align="left">
+                <img  src="IMAGE/ECE.jpg" alt="Photo" align="left" >
+                <img  src="IMAGE/APTITUDE.jpg" alt="Photo" align="left" >
+                <img  src="IMAGE/GK.jpg" alt="Photo" align="left">
+                <img  src="IMAGE/CS.jpg" alt="Photo" align="left" >
+                <img  src="IMAGE/HV.jpg" alt="Photo" align="left">
+            </div> 
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><div id="down">
+            <h3>Stay Connected</h3>
+            <a href="#" class="fa fa-facebook" style="text-decoration: none; padding: 10px 12px;color: white; "></a>
+            <a href="#" class="fa fa-instagram" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+            <a href="#" class="fa fa-twitter" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+            <h2>Contant Address</h2>
+            <a href="#" class="fa fa-home" style="text-decoration: none; padding: 10px 12px;color: white; ">
+                District or Village : Maan Nagar Ward no.35 Makaan No.101 , Jhunjhunu(333001), Rajasthan
+            </a><br>
+            <a href="#" class="fa fa-phone" style="text-decoration: none; padding: 10px 12px;color: white;">
+              +91-7891453181
+            </a>
+            <a href="#" class="fa fa-envelope" style="text-decoration: none; padding: 10px 12px; color:white;">
+              sharmadishant2005@gmail.com
+            </a>
+        </div>
+        <div class="footer">Developed By : Dishant Sharma </div>
+    </div>
